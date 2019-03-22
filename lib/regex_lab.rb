@@ -21,6 +21,5 @@ end
 
 def valid_phone_number?(phone)
   phone.scan(/^\D{3}\D(0,1)\D{3}\D(0,1)\D{4}\D(0,1)$/) ? true : false
-return  phone.scan(/^\D{3}\D(0,1)\D{3}\D(0,1)\D{4}\D(0,1)$/).length > 0
-end
 
+end
